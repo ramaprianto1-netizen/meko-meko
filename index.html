@@ -3,25 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meko-Meko Project</title>
-  <!-- Hubungkan ke style.css -->
+  <title>Meko-Meko</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>🎨 Meko-Meko Project</h1>
-    <p>Kreasi manga, manhwa, dan komik dengan AI</p>
+    <h1>✨ Meko-Meko ✨</h1>
+    <p>Studio komunitas manga, manhwa, & komik</p>
+    <button id="darkToggle">🌙 Mode Gelap</button>
   </header>
 
+  <!-- Navigasi -->
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Buat Komik</a>
+    <a href="#">Publikasi</a>
+    <a href="#">Forum</a>
+    <a href="#">Donasi</a>
+  </nav>
+
+  <!-- Konten Utama -->
   <main>
-    <section>
-      <h2>✨ Buat Ceritamu</h2>
-      <p>Tulis, desain, dan publish manga/manhwa/komik dengan mudah.</p>
+    <section class="intro">
+      <h2>📖 Tentang Meko-Meko</h2>
+      <p>
+        Platform untuk kreator komik & pembaca.  
+        Kamu bisa membuat manga/manhwa/komik, mempublikasikan karya,  
+        dan berinteraksi dengan komunitas kreator lain.
+      </p>
+    </section>
+
+    <section class="features">
+      <h2>🔥 Fitur Utama</h2>
+      <ul>
+        <li>✏️ Editor komik online</li>
+        <li>📤 Publikasi chapter terjadwal</li>
+        <li>💬 Forum komunitas kreator</li>
+        <li>☕ Sistem donasi kreator</li>
+        <li>⚡ Update otomatis konten</li>
+      </ul>
+    </section>
+
+    <section class="avatar">
+      <h2>🤖 Asisten Meko</h2>
+      <canvas id="avatarCanvas"></canvas>
+      <p>Asisten virtual untuk membantu perjalanan kreatifmu.</p>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Meko-Meko Project</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
